@@ -1,0 +1,75 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="300" WindowStyle="None"
+        Background="Orange"
+        BorderBrush="White"
+        BorderThickness="4"
+          >
+
+   
+<Grid>
+        <Grid RenderTransformOrigin="0.388,0.439" Margin="10,0,-10,0"/>
+        <Button Grid.Row="0"  Grid.Column="0" Grid.ColumnSpan="2" Content="CLOSE" Margin="5" Background="Black" BorderBrush="White" Click ="Button_Click"  ></Button>
+        <Button Grid.Row="0"  Grid.Column="2" Grid.RowSpan="2" Margin="5" Background="White" BorderBrush="White"></Button>
+        <Button Grid.Row="0"  Grid.Column="3" Margin="5" Background="Gray" BorderBrush="White"></Button>
+        <Button Grid.Row="0"  Grid.Column="4" Margin="5" Background="Pink" BorderBrush="White"></Button>
+        <Button Grid.Row="0"  Grid.Column="5" Margin="5" Background="Purple" BorderBrush="White"></Button>
+        <Button Grid.Row="0"  Grid.Column="6" Margin="5" Grid.ColumnSpan="2" Grid.RowSpan="2" Content="CLOSE" Background="SkyBlue" BorderBrush="White" Click ="Button_Click"></Button>
+
+        <Button Grid.Row="1"  Grid.Column="0" Grid.ColumnSpan="2" Margin="5" Background="Green" BorderBrush="White"></Button>
+        <Button Grid.Row="1"  Grid.Column="3" Grid.ColumnSpan="3" Grid.RowSpan="4" Margin="5" Background="LightGreen"  BorderBrush="White"></Button>
+
+        <Button Grid.Row="2"  Grid.Column="0" Grid.ColumnSpan="2" Margin="5" Background="DarkBlue" BorderBrush="White" ></Button>
+        <Button Grid.Row="2"  Grid.Column="2" Grid.RowSpan="2" Margin="5" Background="DarkSlateGray" BorderBrush="White"></Button>
+        <Button Grid.Row="2"  Grid.Column="6" Grid.RowSpan="2" Grid.ColumnSpan ="2" Margin="5" Background="Gold" BorderBrush="White"></Button>
+
+        <Button Grid.Row="3"  Grid.Column="0" Grid.ColumnSpan="2" Margin="5" Background="Black" BorderBrush="White"></Button>
+
+        <Button Grid.Row="4"  Grid.Column="0" Grid.ColumnSpan="2" Margin="5" Background="#FF42CFD2" BorderBrush="White"/>
+        <Button Grid.Row="4"  Grid.Column="2" Grid.RowSpan="5" Margin="5" Background="#FF42CFD2" BorderBrush="White"/>
+        <Button Grid.Row="4"  Grid.Column="6" Grid.ColumnSpan="2" Grid.RowSpan="2" Margin="5" Background="Yellow" BorderBrush="White"/>
+
+        <Button Grid.Row="5"  Grid.Column="0" Grid.ColumnSpan="2" Grid.RowSpan="2" Margin="5" Background="DarkBlue" BorderBrush="White" />
+        <Button Grid.Row="5"  Grid.Column="3" Grid.ColumnSpan="3"  Margin="5" Background="Red" BorderBrush="White"/>
+
+        <Button Grid.Row="6"  Grid.Column="3" Grid.RowSpan="3" Margin="5" Background="WhiteSmoke" BorderBrush="White"/>
+        <Button Grid.Row="6"  Grid.Column="4" Grid.ColumnSpan="4" Margin="5" Background="Gray" BorderBrush="White"/>
+
+        <Button Grid.Row="7"  Grid.Column="0" Grid.RowSpan="2" Margin="5" Background="Goldenrod" BorderBrush="White"/>
+        <Button Grid.Row="7"  Grid.Column="1" Grid.RowSpan="2" Margin="5" Background="Gold" BorderBrush="White"/>
+        <Button Grid.Row="7"  Grid.Column="4" Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="5" Background="DarkBlue" BorderBrush="White"/>
+        <Button Grid.Row="7"  Grid.Column="6" Grid.ColumnSpan="2" Margin="5" Background="LightPink" BorderBrush="White"/>
+
+        <Button Grid.Row="8"  Grid.Column="6"  Margin="5" Background="Red" BorderBrush="White"/>
+        <Button Grid.Row="8"  Grid.Column="7"  Margin="5" Background="Brown" BorderBrush="White"/>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+    </Grid>
+</Window>
+
